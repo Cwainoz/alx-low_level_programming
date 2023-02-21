@@ -6,3 +6,6 @@
  */
 int main(void)
 {
+	int num;
+
+	for (num = 0
