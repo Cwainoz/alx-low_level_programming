@@ -19,15 +19,16 @@ int count_word(char *s)
 		if (s[c] == ' ')
 			flag = 0;
 		else if (flag == 0)
-		{																		flag = 1;
+		{
+			flag = 1;
 			w++;
 		}
-
-		return (w);
 	}
 
+	return (w);
+}
 /**
- * strtow - splits a string into words
+ * **strtow - splits a string into words
  * @str: string to split
  *
  * Return: pointer to an array of strings (Success)
